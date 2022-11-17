@@ -1,0 +1,111 @@
+html::-webkit-scrollbar{
+display: none;  
+}
+.all{
+    width: 100%;
+    margin-top: 12.5%;
+}
+
+.header{
+    background-color: #d0bbb6;
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    justify-content: center;
+  
+
+
+}
+.header2{
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #bfb4b3;
+    justify-content: center;
+
+
+}
+
+
+.menu_button {
+
+  background-color: #bfb4b3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.menu_button:hover {
+  background-color: #441713;
+}
+
+.dropbtn {
+    background-color: #bfb4b3;
+    color: white;
+    padding: 20px;
+    border: none;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bfb4b3;
+    min-width: 123px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {  background-color: #441713;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {        background-color: #441713;
+    ;
+
+
+  }
+
+body{
+    width: 100%;
+    background-image: url(./images/white\ wallpaper.jpg);
+    background-size: 100%;
+}
+
+.footer{
+    width: 100%;
+    background-color: #bfb4b3;
+    margin-top: 5px;
+    justify-content: center;
+
+
+  }
+
+.header2 > div > a {
+  font-size: 40px;
+  
+}
+
+.top{
+  top:0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+

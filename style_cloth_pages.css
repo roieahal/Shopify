@@ -1,0 +1,80 @@
+.cloth_page {
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 3%;
+  margin-bottom: 5%;
+}
+
+.d1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.d8 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-template-columns: 5;
+}
+
+.cloth_page > div > a {
+  font-size: 20px;
+}
+
+.d2 {
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.d2:hover {
+  transform: scale(1.0);
+}
+
+
+.d2 {
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.d2:hover {
+  transform: scale(1.1);
+}
+
+.d3 {
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.d3:hover {
+  transform: scale(1.1);
+}
+
+.d4 {
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.d4:hover {
+  transform: scale(1.1);
+}
+
+.d5 {
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.d5:hover {
+  transform: scale(1.1);
+}

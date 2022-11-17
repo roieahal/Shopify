@@ -1,0 +1,72 @@
+.men {
+  display: grid;
+  grid-template-rows: 1fr 1.27fr 1fr;
+  grid-template-columns: 15% 10% 10% 10% 10% 10% 10% 15%;
+  gap: 1.25%;
+}
+
+#reek2 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+#reek3 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 8;
+  grid-column-end: 9;
+}
+#d1 {
+ 
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 8;
+}
+#d2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+#d3 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+#d4 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+#d5 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+#d6 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 6;
+  grid-column-end: 8;
+}
+
+.men > div > a > img:hover {
+  -moz-box-shadow: 0px 6px 5px rgb(228, 37, 37);
+  -webkit-box-shadow: 0px 6px 5px rgb(218, 38, 38);
+  box-shadow: 0px 6px 5px rgb(136, 33, 33);
+  -moz-border-radius:190px;
+  -webkit-border-radius:190px;
+  border-radius:190px;
+}
+
+
+.men > div > a > img:hover {
+  opacity: 0.5;
+  transition: 0.6s;
+}
+

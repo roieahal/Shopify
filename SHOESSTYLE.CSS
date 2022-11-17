@@ -1,0 +1,31 @@
+#s-m:hover {
+    -moz-box-shadow: 0px 6px 5px rgb(228, 37, 37);
+    -webkit-box-shadow: 0px 6px 5px rgb(218, 38, 38);
+    box-shadow: 0px 6px 5px rgb(136, 33, 33);
+    -moz-border-radius:500px;
+    -webkit-border-radius:190px;
+    border-radius:95px;
+  }
+  
+  
+  #s-m:hover {
+    opacity: 0.5;
+    transition: 0.6s;
+  }
+  
+  #s-w:hover {
+    -moz-box-shadow: 0px 6px 5px rgb(228, 37, 37);
+    -webkit-box-shadow: 0px 6px 5px rgb(218, 38, 38);
+    box-shadow: 0px 6px 5px rgb(136, 33, 33);
+    -moz-border-radius:500px;
+    -webkit-border-radius:190px;
+    border-radius:95px;
+  }
+  
+  
+  #s-w:hover {
+    opacity: 0.5;
+    transition: 0.6s;
+  }
+  
+  
